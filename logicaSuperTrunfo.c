@@ -7,6 +7,20 @@
 
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
+    char estado [8];
+    char codigodacarta [4];
+    int populacao;
+    float area;
+    float PIB;
+    int numerodepontosturisticos;
+    
+    printf("Informe o Estado: \n");
+    scanf("%s", estado);
+    printf("Seu estado é: %s \n", estado);
+
+
+
+
     // Você pode utilizar o código do primeiro desafio
     printf("Desafio Super Trunfo!\n");
 
